@@ -1,0 +1,80 @@
+[
+{
+  "directory": "C:/Users/sabze/Progs/chess-engine/build",
+  "command": "\"C:/Program Files/gcc/bin/g++.exe\"  @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wnon-virtual-dtor -Wunused -o CMakeFiles/chess_engine.dir/src/main.cpp.obj -c C:/Users/sabze/Progs/chess-engine/src/main.cpp",
+  "file": "C:/Users/sabze/Progs/chess-engine/src/main.cpp",
+  "output": "CMakeFiles/chess_engine.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/sabze/Progs/chess-engine/build",
+  "command": "\"C:/Program Files/gcc/bin/g++.exe\"  @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wnon-virtual-dtor -Wunused -o CMakeFiles/chess_engine.dir/src/core/piece.cpp.obj -c C:/Users/sabze/Progs/chess-engine/src/core/piece.cpp",
+  "file": "C:/Users/sabze/Progs/chess-engine/src/core/piece.cpp",
+  "output": "CMakeFiles/chess_engine.dir/src/core/piece.cpp.obj"
+},
+{
+  "directory": "C:/Users/sabze/Progs/chess-engine/build",
+  "command": "\"C:/Program Files/gcc/bin/g++.exe\"  @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wnon-virtual-dtor -Wunused -o CMakeFiles/chess_engine.dir/src/core/pawn.cpp.obj -c C:/Users/sabze/Progs/chess-engine/src/core/pawn.cpp",
+  "file": "C:/Users/sabze/Progs/chess-engine/src/core/pawn.cpp",
+  "output": "CMakeFiles/chess_engine.dir/src/core/pawn.cpp.obj"
+},
+{
+  "directory": "C:/Users/sabze/Progs/chess-engine/build",
+  "command": "\"C:/Program Files/gcc/bin/g++.exe\"  @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wnon-virtual-dtor -Wunused -o CMakeFiles/chess_engine.dir/src/core/knight.cpp.obj -c C:/Users/sabze/Progs/chess-engine/src/core/knight.cpp",
+  "file": "C:/Users/sabze/Progs/chess-engine/src/core/knight.cpp",
+  "output": "CMakeFiles/chess_engine.dir/src/core/knight.cpp.obj"
+},
+{
+  "directory": "C:/Users/sabze/Progs/chess-engine/build",
+  "command": "\"C:/Program Files/gcc/bin/g++.exe\"  @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wnon-virtual-dtor -Wunused -o CMakeFiles/chess_engine.dir/src/core/bishop.cpp.obj -c C:/Users/sabze/Progs/chess-engine/src/core/bishop.cpp",
+  "file": "C:/Users/sabze/Progs/chess-engine/src/core/bishop.cpp",
+  "output": "CMakeFiles/chess_engine.dir/src/core/bishop.cpp.obj"
+},
+{
+  "directory": "C:/Users/sabze/Progs/chess-engine/build",
+  "command": "\"C:/Program Files/gcc/bin/g++.exe\"  @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wnon-virtual-dtor -Wunused -o CMakeFiles/chess_engine.dir/src/core/rook.cpp.obj -c C:/Users/sabze/Progs/chess-engine/src/core/rook.cpp",
+  "file": "C:/Users/sabze/Progs/chess-engine/src/core/rook.cpp",
+  "output": "CMakeFiles/chess_engine.dir/src/core/rook.cpp.obj"
+},
+{
+  "directory": "C:/Users/sabze/Progs/chess-engine/build",
+  "command": "\"C:/Program Files/gcc/bin/g++.exe\"  @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wnon-virtual-dtor -Wunused -o CMakeFiles/chess_engine.dir/src/core/queen.cpp.obj -c C:/Users/sabze/Progs/chess-engine/src/core/queen.cpp",
+  "file": "C:/Users/sabze/Progs/chess-engine/src/core/queen.cpp",
+  "output": "CMakeFiles/chess_engine.dir/src/core/queen.cpp.obj"
+},
+{
+  "directory": "C:/Users/sabze/Progs/chess-engine/build",
+  "command": "\"C:/Program Files/gcc/bin/g++.exe\"  @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wnon-virtual-dtor -Wunused -o CMakeFiles/chess_engine.dir/src/core/king.cpp.obj -c C:/Users/sabze/Progs/chess-engine/src/core/king.cpp",
+  "file": "C:/Users/sabze/Progs/chess-engine/src/core/king.cpp",
+  "output": "CMakeFiles/chess_engine.dir/src/core/king.cpp.obj"
+},
+{
+  "directory": "C:/Users/sabze/Progs/chess-engine/build",
+  "command": "\"C:/Program Files/gcc/bin/g++.exe\"  @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wnon-virtual-dtor -Wunused -o CMakeFiles/chess_engine.dir/src/core/history.cpp.obj -c C:/Users/sabze/Progs/chess-engine/src/core/history.cpp",
+  "file": "C:/Users/sabze/Progs/chess-engine/src/core/history.cpp",
+  "output": "CMakeFiles/chess_engine.dir/src/core/history.cpp.obj"
+},
+{
+  "directory": "C:/Users/sabze/Progs/chess-engine/build",
+  "command": "\"C:/Program Files/gcc/bin/g++.exe\"  @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wnon-virtual-dtor -Wunused -o CMakeFiles/chess_engine.dir/src/core/board.cpp.obj -c C:/Users/sabze/Progs/chess-engine/src/core/board.cpp",
+  "file": "C:/Users/sabze/Progs/chess-engine/src/core/board.cpp",
+  "output": "CMakeFiles/chess_engine.dir/src/core/board.cpp.obj"
+},
+{
+  "directory": "C:/Users/sabze/Progs/chess-engine/build",
+  "command": "\"C:/Program Files/gcc/bin/g++.exe\"  @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wnon-virtual-dtor -Wunused -o CMakeFiles/chess_engine.dir/src/core/board_checks.cpp.obj -c C:/Users/sabze/Progs/chess-engine/src/core/board_checks.cpp",
+  "file": "C:/Users/sabze/Progs/chess-engine/src/core/board_checks.cpp",
+  "output": "CMakeFiles/chess_engine.dir/src/core/board_checks.cpp.obj"
+},
+{
+  "directory": "C:/Users/sabze/Progs/chess-engine/build",
+  "command": "\"C:/Program Files/gcc/bin/g++.exe\"  @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wnon-virtual-dtor -Wunused -o CMakeFiles/chess_engine.dir/src/ai/evaluation.cpp.obj -c C:/Users/sabze/Progs/chess-engine/src/ai/evaluation.cpp",
+  "file": "C:/Users/sabze/Progs/chess-engine/src/ai/evaluation.cpp",
+  "output": "CMakeFiles/chess_engine.dir/src/ai/evaluation.cpp.obj"
+},
+{
+  "directory": "C:/Users/sabze/Progs/chess-engine/build",
+  "command": "\"C:/Program Files/gcc/bin/g++.exe\"  @CMakeFiles/chess_engine.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wnon-virtual-dtor -Wunused -o CMakeFiles/chess_engine.dir/src/ai/search.cpp.obj -c C:/Users/sabze/Progs/chess-engine/src/ai/search.cpp",
+  "file": "C:/Users/sabze/Progs/chess-engine/src/ai/search.cpp",
+  "output": "CMakeFiles/chess_engine.dir/src/ai/search.cpp.obj"
+}
+]
