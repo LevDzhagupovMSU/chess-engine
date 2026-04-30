@@ -57,6 +57,40 @@ ChessBoard :: ChessBoard(const ChessBoard& board){
     this->black_kingIndex = board.black_kingIndex;
 }
 
+ChessBoard& ChessBoard::operator=(ChessBoard other) noexcept{
+    if(this == &other) return *this;
+
+    
+    std::swap(pieces, other.pieces);
+    std::swap(moves_record, other.moves_record);
+    std::swap(check, other.check);
+    std::swap(checkMate, other.checkMate);
+    std::swap(white_kingIndex, other.white_kingIndex);
+    std::swap(black_kingIndex, other.black_kingIndex);
+
+    return *this;
+}
+
+ChessBoard::ChessBoard(ChessBoard&& other) noexcept : check(other.check), checkMate(other.checkMate),
+                                                      white_kingIndex(other.white_kingIndex), 
+                                                      black_kingIndex(other.black_kingIndex) {
+    std::swap(pieces, other.pieces);
+    std::swap(moves_record, other.moves_record);
+}
+
+ChessBoard& ChessBoard::operator=(ChessBoard&& other) noexcept{
+    if(this == &other) return *this;
+
+    std::swap(pieces, other.pieces);
+    std::swap(moves_record, other.moves_record);
+    std::swap(check, other.check);
+    std::swap(checkMate, other.checkMate);
+    std::swap(white_kingIndex, other.white_kingIndex);
+    std::swap(black_kingIndex, other.black_kingIndex);
+    
+    return *this;
+}
+
 void ChessBoard :: setPiece(int _row, int _col, std::unique_ptr<Piece> piece){
     pieces[Index(_row, _col)] = std::move(piece);
 }   
