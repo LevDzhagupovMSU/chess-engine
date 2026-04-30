@@ -16,6 +16,12 @@ struct ChessBoard {
 
 	ChessBoard();
 	ChessBoard(const ChessBoard& board);
+    ChessBoard& operator=(ChessBoard other) noexcept;
+
+    ChessBoard(ChessBoard&& other) noexcept;
+    ChessBoard& operator=(ChessBoard&& other) noexcept;
+
+    ~ChessBoard();
 
     void setPiece(int _row, int _col, std::unique_ptr<Piece> piece);
     int Index(int row, int col) const;
