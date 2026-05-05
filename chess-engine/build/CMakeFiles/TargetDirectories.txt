@@ -1,3 +1,0 @@
-C:/Users/sabze/Progs/chess-engine/build/CMakeFiles/chess_engine.dir
-C:/Users/sabze/Progs/chess-engine/build/CMakeFiles/edit_cache.dir
-C:/Users/sabze/Progs/chess-engine/build/CMakeFiles/rebuild_cache.dir
